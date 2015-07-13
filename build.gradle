@@ -15,6 +15,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'ru.justnero.jetupdater.Main'
+        attributes 'Main-Class': mainClassName
     }
 }
