@@ -1,10 +1,7 @@
 apply plugin:'java'
-apply plugin: 'application'
 
 sourceCompatibility = "1.7"
 targetCompatibility = "1.7"
-
-mainClassName = "ru.justnero.jetupdater.Main"
 
 repositories {
    flatDir {
@@ -18,6 +15,6 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': mainClassName
+        attributes 'Main-Class': "ru.justnero.jetupdater.Main"
     }
 }
